@@ -1,7 +1,7 @@
 /*
 *
-* Green color 1: #7dbf0c
-* Green color 2: #66990e;
+* Green color 1: #e8474a
+* Green color 2: #ad2628;
 */
 
 /*@font-face {
@@ -28,19 +28,19 @@ body {
 }
 
 #first-content {
-  background: #7dbf0c;
-  background: -moz-linear-gradient(top,  #7dbf0c 0%, #66990e 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7dbf0c), color-stop(100%,#66990e));
-  background: -webkit-linear-gradient(top,  #7dbf0c 0%,#66990e 100%);
-  background: -o-linear-gradient(top,  #7dbf0c 0%,#66990e 100%);
-  background: -ms-linear-gradient(top,  #7dbf0c 0%,#66990e 100%);
-  background: linear-gradient(to bottom,  #7dbf0c 0%,#66990e 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dbf0c', endColorstr='#66990e',GradientType=0 );
+  background: #e8474a;
+  background: -moz-linear-gradient(top,  #e8474a 0%, #ad2628 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8474a), color-stop(100%,#ad2628));
+  background: -webkit-linear-gradient(top,  #e8474a 0%,#ad2628 100%);
+  background: -o-linear-gradient(top,  #e8474a 0%,#ad2628 100%);
+  background: -ms-linear-gradient(top,  #e8474a 0%,#ad2628 100%);
+  background: linear-gradient(to bottom,  #e8474a 0%,#ad2628 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8474a', endColorstr='#ad2628',GradientType=0 );
 }
 
 .slogan {
   /*font-family: "AvalonDemi";*/
-  border-left: 10px solid #3f5d0b;
+  border-left: 10px solid #801012;
   padding-left: 20px;
   font-size: 102px;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .slogan span.motto {
-  color: #3f5d0b;
+  color: #801012;
 }
 
 .slogan p.location {
@@ -103,7 +103,7 @@ body {
 }
 
 #newsletter #input-newsletter-email,
-#newsletter .btn-success {
+#newsletter .btn-info {
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
