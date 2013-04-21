@@ -132,9 +132,14 @@ body {
   color: #b0b0b0;
 }
 
+#execution .container {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 60px;
+}
+
 .footer-copyright {
+  margin: 20px 0;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 
