@@ -107,7 +107,7 @@ dd {
   padding: 0;
 }
 
-#info-box .container .span6,
+#info-box .container .span12,
 #location .about-event-infos {
   padding: 20px;
 
@@ -156,6 +156,20 @@ dd {
 
 #location-map img {
   max-width: initial;
+}
+
+#eventicket {
+  height: 415px;
+  width: 100%;
+}
+
+.eventicket-link {
+  display: none;
+}
+
+.ticket-hot-news {
+  color: #ECF0F1;
+  text-align: center;
 }
 
 #other-events.jumbotron {
