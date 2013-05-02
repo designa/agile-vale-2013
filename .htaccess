@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{http_host} ^www.agilevale.com.br [NC]
+RewriteRule ^(.*)$ http://agilevale.com.br/$1 [R=301,L]
