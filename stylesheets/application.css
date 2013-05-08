@@ -43,6 +43,7 @@ dd {
   background: -ms-linear-gradient(top,  #e9484b 0%,#ad2628 100%);
   background: linear-gradient(to bottom,  #e9484b 0%,#ad2628 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9484b', endColorstr='#ad2628',GradientType=0 );
+  padding-bottom: 120px;
 }
 
 .slogan {
@@ -172,10 +173,6 @@ dd {
   text-align: center;
 }
 
-#other-events.jumbotron {
-  padding-bottom: 90px;
-}
-
 #other-events .main-title {
   margin-bottom: 30px;
 }
@@ -192,7 +189,6 @@ dd {
 
 #second-content {
   color: #b0b0b0;
-  padding-top: 30px;
 }
 
 #execution .container {
@@ -231,12 +227,9 @@ dd {
   text-align: center;
 }
 
-
-
-
-
-
-
+.box-registration{
+  height: 300px;
+}
 
 
 
