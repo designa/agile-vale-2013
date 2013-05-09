@@ -35,6 +35,8 @@ dd {
 }
 
 #first-content {
+  padding-bottom: 60px;
+
   background: #7dbf0c;
   background: -moz-linear-gradient(top,  #e9484b 0%, #ad2628 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e9484b), color-stop(100%,#ad2628));
@@ -43,7 +45,6 @@ dd {
   background: -ms-linear-gradient(top,  #e9484b 0%,#ad2628 100%);
   background: linear-gradient(to bottom,  #e9484b 0%,#ad2628 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9484b', endColorstr='#ad2628',GradientType=0 );
-  padding-bottom: 120px;
 }
 
 .slogan {
@@ -159,8 +160,8 @@ dd {
   max-width: initial;
 }
 
-#eventicket {
-  height: 415px;
+.eventicket-iframe {
+  height: 254px;
   width: 100%;
 }
 
@@ -189,6 +190,7 @@ dd {
 
 #second-content {
   color: #b0b0b0;
+  padding-top: 30px;
 }
 
 #execution .container {
@@ -204,7 +206,7 @@ dd {
 }
 
 .events-link.startup-vale {
-  background-color: #ea4445;
+  background-color: #7bbc0c;
   background-image: url(../images/logo-startup-vale.png);
 }
 
@@ -220,6 +222,7 @@ dd {
 #execution .event-owner {
   display: block;
   margin-top: 24px;
+  max-width: 200px;
 }
 
 .footer-copyright {
@@ -393,7 +396,7 @@ dd {
   }
 
   .jumbotron h1.logo {
-    height: 150px;
+    height: 350px;
   }
 
   .slogan {
@@ -410,5 +413,13 @@ dd {
 
   #location-map {
     height: 200px;
+  }
+
+  .eventicket-iframe {
+    display: none;
+  }
+
+  .eventicket-link {
+    display: block;
   }
 }
