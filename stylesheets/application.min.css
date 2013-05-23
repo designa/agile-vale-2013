@@ -216,6 +216,12 @@ dd {
   padding-bottom: 60px;
 }
 
+.support-list .support-item {
+  float: left;
+  margin: 0 12px 12px 0;
+  width: 120px;
+}
+
 .events-link {
   background: transparent no-repeat center;
   display: block;
@@ -297,10 +303,6 @@ dd {
 
 
 @media (max-width: 979px) {
-  #logo-area{
-    padding-top: 30px;
-  }
-
   .jumbotron .span4, .jumbotron .span8 {
     width: 100%;
     float: none;
@@ -329,10 +331,9 @@ dd {
   }
 
   .jumbotron h1.logo {
-    height: 350px;
+    height: 220px;
     margin-bottom: 20px;
   }
-
 
   #newsletter .row-fluid .span4,
   #other-events .row-fluid .span8 {
@@ -388,7 +389,7 @@ dd {
   }
 
   #execution .event-owner {
-   margin: 0 auto;
+   max-width: 300px;
   }
 
 }
@@ -416,6 +417,10 @@ dd {
 
   #first-content .jumbotron:first-child {
     padding-top: 0;
+  }
+
+  .jumbotron h1.logo {
+    height: 350px;
   }
 
   .slogan {

@@ -198,6 +198,12 @@ dd {
   padding-bottom: 60px;
 }
 
+.support-list .support-item {
+  float: left;
+  margin: 0 12px 12px 0;
+  width: 120px;
+}
+
 .events-link {
   background: transparent no-repeat center;
   display: block;
