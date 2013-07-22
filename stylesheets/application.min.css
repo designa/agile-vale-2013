@@ -48,6 +48,13 @@ dd {
   font-size: 18px;
 }
 
+.link-fanpage{
+  color: #999;
+}
+.link-fanpage:hover{
+  color:#fbfbfb;
+}
+
 .is-shadow {
   text-shadow: 0 1px 1px #222;
 }
