@@ -25,7 +25,11 @@ dt {
 dd {
   margin-bottom: 12px;
 }
-
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
 .lead {
   font-size: 18px;
 }
@@ -85,6 +89,42 @@ dd {
 
 .jumbotron h1.logo, .slogan {
   height: 355px;
+}
+
+#schedule-of-speakers table {
+  background: #fff;
+  color: #333;
+}
+#schedule-of-speakers th {
+  font-size: 22px;
+}
+
+#schedule-of-speakers td,
+#schedule-of-speakers th {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 20px 30px;
+  position: relative;
+  text-align: left;
+}
+#schedule-of-speakers tbody tr:nth-child(2n+1) {
+  background: #f6f6f6;
+}
+#schedule-of-speakers tbody tr:hover {
+  background:#fffde1;
+}
+#schedule-of-speakers .speaker-photo {
+  float: left;
+  height: 40px;
+  margin-right: 20px;
+  position: relative;
+  width: 40px;
+}
+#schedule-of-speakers .schedule-time {
+  text-align:center;
+  width: 40px;
+}
+#schedule-of-speakers tbody .schedule-time {
+  font-size: 14px;
 }
 
 .event-photo{
@@ -378,7 +418,11 @@ dd {
 
 
 
-
+@media (max-width: 613px){
+  #eventicket {
+    height: 538px;
+  }
+}
 
 
 
@@ -417,6 +461,17 @@ dd {
     font-size: 17px;
   }
 
+  #speaker-area .speakers-item {
+    display: block;
+    float: none;
+    margin: 12px 0 0 0;
+  }
+
+  #schedule-of-speakers td,
+  #schedule-of-speakers th {
+    padding: 15px;
+  }
+
   #location-map {
     height: 200px;
   }
@@ -428,4 +483,6 @@ dd {
   .eventicket-link {
     display: block;
   }
+}
+@media (max-width: 320px) {
 }
