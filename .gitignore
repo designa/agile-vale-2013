@@ -6,3 +6,6 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# Pydev config folder
+.idea
