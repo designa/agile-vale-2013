@@ -163,12 +163,13 @@ table {
   width: 40px;
 }
 #schedule-of-speakers .schedule-time {
-  text-align:center;
+  text-align:left;
   width: 40px;
 }
 #schedule-of-speakers tbody .schedule-time {
   font-size: 14px;
 }
+
 
 .event-photo{
   display: block;

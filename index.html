@@ -85,157 +85,112 @@
         </div>
       </div>
 
-      <div id="speaker-area" class="jumbotron">
-        <div class="container">
-          <div class="row">
-            <div class="span12">
-              <div class="speakers">
-                <h2 class="speakers-confirmed">Palestrantes do evento!</h2>
-                <!--
-                ATENÇÃO:
-
-                Apenas 2 palestrantes por .row-fluid,
-                Então, sempre criar um novo:
-
-                .row-fluid
-                  .span6
-                    Palestrante
-                  .span6
-                    Palestrante
-                .row-fluid
-                  .span6
-                    Palestrante
-                  .span6
-                    Palestrante
-
-                Obrigado! =)
-                 -->
-                <div class="row-fluid">
-                  <div class="span6 speakers-item" itemprop="performer" itemscope="" itemtype="http://schema.org/Person">
-                    <figure class="speaker-photo">
-                      <img class="photo" src="images/speakers/speaker-feijao.png" alt="Thiago Feijão" itemprop="image">
-                    </figure>
-                    <h3 class="speakers-name" itemprop="name"><a href="https://twitter.com/Thiago_Feijao" target="_blank" title="Twitter @Thiago_Feijao">Thiago Feijão</a></h3>
-                    <p>
-                      <small class="speakers-works-for" itemprop="worksFor">QMágico</small>
-                      <small class="speakers-room">Sala #1</small>
-                    </p>
-                    <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, architecto, recusandae non tempore quos accusamus commodi laborum at enim aut.</p>
-                  </div>
-                  <div class="span6 speakers-item" itemprop="performer" itemscope="" itemtype="http://schema.org/Person">
-                    <figure class="speaker-photo">
-                      <img class="photo" src="images/speakers/speaker-feijao.png" alt="Thiago Feijão" itemprop="image">
-                    </figure>
-                    <h3 class="speakers-name" itemprop="name"><a href="https://twitter.com/Thiago_Feijao" target="_blank" title="Twitter @Thiago_Feijao">Thiago Feijão</a></h3>
-                    <p>
-                      <small class="speakers-works-for" itemprop="worksFor">QMágico</small>
-                      <small class="speakers-room">Sala #3</small>
-                    </p>
-                    <p class="speakers-bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, architecto, recusandae non tempore quos accusamus commodi laborum at enim aut.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div id="schedule-of-speakers" class="jumbotron">
         <div class="container">
           <div class="row">
             <div class="span12">
-              <h2>Programação confirmada!</h2>
+              <h2>Programação</h2>
+              <p class="lead">Estamos preparando uma agenda recheada de conteúdos relevantes! A programação será distribuída em 3 trilhas: gestão, engenharia e workshop com muito conteúdo e mão na massa! (programação sujeita a alteração)</p>
+
               <table class="schedule-table schedule-table-striped">
                 <thead>
                   <th class="schedule-time">Horário</th>
-                  <th class="schedule-room1">Sala #1</th>
-                  <th class="schedule-room2">Sala #2</th>
-                  <th class="schedule-room3">Sala #3</th>
+                  <th class="schedule-room1">Gestão</th>
+                  <th class="schedule-room2">Engenharia</th>
+                  <th class="schedule-room3">Workshop</th>
                 </thead>
                 <tbody>
                   <tr>
-                    <td class="schedule-time">09h00</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-time">08h00</td>
+                    <td class="schedule-room1" colspan="3"><strong>CREDENCIAMENTO / WELCOME COFFEE</strong></td>
                   </tr>
                   <tr>
-                    <td class="schedule-time">09h40</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-time">08h40</td>
+                    <td class="schedule-room1" colspan="3"><strong>ABERTURA OFICIAL</strong></td>
+                  </tr>
+                  <tr>
+                    <td class="schedule-time">09h00</td>
+                    <td class="schedule-room1" colspan="3">KEY NOTE</td>
                   </tr>
                   <tr>
                     <td class="schedule-time">10h00</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-room1"><strong>Management 3.0</strong><br>(André Faria)</td>
+                    <td class="schedule-room2"><strong>Refatoração de Banco de Dados</strong><br>(Tony Lampada)</td>
+                    <td class="schedule-room3">Workshop #1 - a confirmar</td>
+                  </tr>
+                  <tr>
+                    <td class="schedule-time">10h30</td>
+                    <td class="schedule-room1">Palestra à confirmar</td>
+                    <td class="schedule-room2">Palestra à confirmar</td>
+                    <td class="schedule-room3">Workshop #1 - a confirmar<br>(continuação)</td>
                   </tr>
                   <tr>
                     <td class="schedule-time">11h00</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-room1">Palestra à confirmar</td>
+                    <td class="schedule-room2"><strong>Desenvolvimento de Games e Técnicas</strong><br>(Hanelli)</td>
+                    <td class="schedule-room3">Workshop #1 - a confirmar<br>(continuação)</td>
                   </tr>
                   <tr>
                     <td class="schedule-time">11h30</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-room1">Palestra à confirmar</td>
+                    <td class="schedule-room2"><strong>Testes de Softwares</strong><br>(Roberto Pepato)</td>
+                    <td class="schedule-room3">Workshop #1 - a confirmar<br>(continuação)</td>
                   </tr>
                   <tr>
                     <td class="schedule-time">12h00</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-room1" colspan="3">KEY NOTE - TÉCNICO</td>
+                  </tr>
                   </tr>
                   <tr>
-                    <td class="schedule-time">13h30</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-time">13h00</td>
+                    <td class="schedule-room1" colspan="3"><strong>ALMOÇO</strong></td>
+                  </tr>
                   </tr>
                   <tr>
                     <td class="schedule-time">14h00</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-room1"><strong>A agilidade no PMI</strong><br>(Hugo Lourenço)</td>
+                    <td class="schedule-room2">Palestra à confirmar</td>
+                    <td class="schedule-room3"><strong>Workshop: Deploy contínuo, mito ou verdade?</strong><br>(Renzo Nuccitelli)</td>
                   </tr>
                   <tr>
                     <td class="schedule-time">14h30</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-room1"><strong>Negociação e Administração de Conflitos</strong><br>(Fabiano Milani)</td>
+                    <td class="schedule-room2">Palestra à confirmar</td>
+                    <td class="schedule-room3"><strong>Workshop (continuação): Deploy contínuo, mito ou verdade?</strong><br>(Renzo Nuccitelli)</td>
                   </tr>
                   <tr>
                     <td class="schedule-time">15h00</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-room1">Palestra à confirmar</td>
+                    <td class="schedule-room2"><strong>Engenharia no Mundo Open Source</strong><br>(Douglas Campos)</td>
+                    <td class="schedule-room3"><strong>Workshop (continuação): Deploy contínuo, mito ou verdade?</strong><br>(Renzo Nuccitelli)</td>
                   </tr>
                   <tr>
                     <td class="schedule-time">15h30</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-room1" colspan="3"><strong>COFFEE BREAK</strong></td>
                   </tr>
                   <tr>
                     <td class="schedule-time">16h00</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-room1">Palestra à confirmar</td>
+                    <td class="schedule-room2">Palestra à confirmar</td>
+                    <td class="schedule-room3"><strong>Lightining Talks</strong></td>
+                  </tr>
+                  <tr>
+                    <td class="schedule-time">16h30</td>
+                    <td class="schedule-room1"><strong>Porque estimar... e porque deixar de estimar!</strong><br>(Rodrigo Yoshima)</td>
+                    <td class="schedule-room2">Palestra à confirmar</td>
+                    <td class="schedule-room3"><strong>Lightining Talks (continuação)</strong></td>
                   </tr>
                   <tr>
                     <td class="schedule-time">17h00</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-room1" colspan="3"><strong>PAINEL</strong><br>Até onde a Agilidade chegou?</td>
                   </tr>
                   <tr>
                     <td class="schedule-time">18h00</td>
-                    <td class="schedule-room1">Palestrante Sala #1</td>
-                    <td class="schedule-room2">Palestrante Sala #2</td>
-                    <td class="schedule-room3">Palestrante Sala #3</td>
+                    <td class="schedule-room1" colspan="3"><strong>ENCERRAMENTO</strong></td>
+                  </tr>
+                  <tr>
+                    <td class="schedule-time">18h30</td>
+                    <td class="schedule-room1" colspan="3"><strong>AGILE PARTY</strong><br>Música, festa, networking, confraternização e algumas cervejas! ;)</td>
                   </tr>
                 </tbody>
               </table>
