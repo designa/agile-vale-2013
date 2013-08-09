@@ -100,8 +100,11 @@ table {
 #speaker-area .speakers-confirmed {
   margin: 0 0 20px 0;
 }
+#speaker-area .row-fluid {
+  background: #e7e7e7;
+  margin-bottom: 24px;
+}
 #speaker-area .speakers-item {
-  background: #FFF;
   padding: 16px;
 }
 #speaker-area .speakers-item:after{
