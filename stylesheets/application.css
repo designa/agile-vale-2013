@@ -147,7 +147,7 @@ table {
   border-bottom: 1px solid #e7e7e7;
   padding: 20px 30px;
   position: relative;
-  text-align: left;
+  text-align: center;
 }
 #schedule-of-speakers tbody tr:nth-child(2n+1) {
   background: #f6f6f6;
@@ -162,12 +162,27 @@ table {
   position: relative;
   width: 40px;
 }
-#schedule-of-speakers .schedule-time {
-  text-align:left;
-  width: 40px;
+#schedule-of-speakers .schedule-room1 {
+  background-color: #f1c40f;
 }
-#schedule-of-speakers tbody .schedule-time {
+#schedule-of-speakers tbody .schedule-room1:hover {
+  background-color: #f1d35d;
+}
+#schedule-of-speakers .schedule-room2 {
+  background-color: #3498db;
+}
+#schedule-of-speakers tbody .schedule-room2:hover {
+  background-color: #68b2e3;
+}
+#schedule-of-speakers .schedule-room3 {
+  background-color: #1abc9c;
+}
+#schedule-of-speakers tbody .schedule-room3:hover {
+  background-color: #54d6bc;
+}
+#schedule-of-speakers .schedule-time {
   font-size: 14px;
+  width: 40px;
 }
 
 
@@ -178,7 +193,6 @@ table {
 }
 
 #about-event {
-  background: transparent url(../images/mountain.png) no-repeat center bottom;
   background-size: contain;
 }
 
