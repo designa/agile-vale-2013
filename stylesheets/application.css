@@ -418,8 +418,7 @@ table {
   }
 
   .jumbotron h1.logo {
-    height: 220px;
-    margin-bottom: 20px;
+    height: 350px;
   }
 
   #newsletter .row-fluid .span4,
@@ -508,10 +507,6 @@ table {
 
   #first-content .jumbotron:first-child {
     padding-top: 0;
-  }
-
-  .jumbotron h1.logo {
-    height: 350px;
   }
 
   .slogan {
