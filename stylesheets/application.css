@@ -246,6 +246,10 @@ table {
   -moz-box-sizing: border-box;
 }
 
+.price-27-07, .price-11-08 {
+  text-decoration: line-through;
+}
+
 #location-map{
   background: #fff;
   border: none;
