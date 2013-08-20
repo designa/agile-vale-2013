@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'FuturaBold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/futura_bold_bt-webfont.eot");
+  src: url("../fonts/futura_bold_bt-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/futura_bold_bt-webfont.woff") format("woff"),url("../fonts/futura_bold_bt-webfont.ttf") format("truetype"),url("../fonts/futura_bold_bt-webfont.svg#avalonbold") format("svg");
+}
+body {
+  color: #FFFFFF;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+#first-content {
+  padding-bottom: 60px;
+
+  background: #7dbf0c;
+  background: -moz-linear-gradient(top,  #e9484b 0%, #ad2628 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e9484b), color-stop(100%,#ad2628));
+  background: -webkit-linear-gradient(top,  #e9484b 0%,#ad2628 100%);
+  background: -o-linear-gradient(top,  #e9484b 0%,#ad2628 100%);
+  background: -ms-linear-gradient(top,  #e9484b 0%,#ad2628 100%);
+  background: linear-gradient(to bottom,  #e9484b 0%,#ad2628 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9484b', endColorstr='#ad2628',GradientType=0 );
+}
