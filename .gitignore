@@ -9,3 +9,6 @@ Thumbs.db
 
 # Pydev config folder
 .idea
+
+# Node
+node_modules/
