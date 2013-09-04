@@ -36,9 +36,17 @@ table {
 .link-fanpage {
   color: #F1F45F;
 }
-.link-fanpage:hover{
+.link-fanpage:hover {
   color: #CCCC28;
   text-decoration: none;
+}
+.btn-green {
+  background: #2ecc71;
+  color: #2c3e50;
+}
+.btn-green:hover {
+  background: #27ae60;
+  color: #2c3e50;
 }
 .is-shadow {
   text-shadow: 0 1px 1px #222;
