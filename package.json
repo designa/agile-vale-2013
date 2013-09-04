@@ -1,0 +1,13 @@
+{
+  "name": "agilevale2013",
+  "version": "0.0.0",
+  "description": "agilevale2013 =============",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/designa/agilevale2013.git"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-imagemin": "~0.2.1"
+  }
+}
