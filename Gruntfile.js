@@ -34,7 +34,10 @@ module.exports = function(grunt) {
         cmd: "git add -A"
       },
       gitCommit: {
-        cmd: "git commit -m ''"
+        cmd: 'git commit -m "grunt deploy"'
+      },
+      gitPush: {
+        cmd: 'git push'
       },
       deploy: {
         cmd: "cap deploy"
