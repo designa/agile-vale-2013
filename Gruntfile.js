@@ -21,7 +21,7 @@ module.exports = function(grunt) {
         // livereload: true,
       },
       css: {
-        files: "stylesheets/*.css",
+        files: ["stylesheets/application.css", "stylesheets/conheca-mais.css"],
         tasks: ["cssmin"],
       },
     },
