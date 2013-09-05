@@ -27,14 +27,11 @@ module.exports = function(grunt) {
     },
 
     bgShell: {
-      gitPull: {
-        cmd: "git pull"
-      },
       gitAdd: {
-        cmd: "git add -A"
+        cmd: "git add images/ -A"
       },
       gitCommit: {
-        cmd: 'git commit -m "grunt deploy"'
+        cmd: 'git commit -m "grunt deploy, task imagemin"'
       },
       gitPush: {
         cmd: 'git push'
@@ -62,6 +59,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-watch");
   grunt.loadNpmTasks("grunt-bg-shell");
 
-  grunt.registerTask("deploy", ["cssmin", "imagemin", "bgShell:deploy"]);
+  grunt.registerTask("deploy", ["cssmin", "imagemin", "bgShell"]);
   grunt.registerTask("default", ["watch"]);
 };
