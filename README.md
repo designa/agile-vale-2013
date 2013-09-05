@@ -1,22 +1,12 @@
-Agile Vale 2013
-=============
-
-Site do evento Agile Vale 2013.
-
-##Instruções
+#Instruções
 
 ###Mac OS
-- Instale o Node
-  - `brew install node`
-- Instale o grunt-cli
-  - `npm install -g grunt-cli`
-- Na raiz do projeto
-  - `npm install`
+- Instale o Node: `brew install node`
+- Instale o grunt-cli: `npm install -g grunt-cli`
+- Na raiz do projeto: `npm install`
 
 #####Development
-- Na raiz do projeto
-  - `grunt watch`
+Durante o desenvolvimento: `grunt watch`, na raiz do projeto
 
 #####Deploy
-- Na raiz do projeto
-  - `grunt deploy`
+Para efetuar o deploy: `grunt deploy`, na raiz do projeto
