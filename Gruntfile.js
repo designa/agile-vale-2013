@@ -26,6 +26,12 @@ module.exports = function(grunt) {
       },
     },
 
+    bgShell: {
+      deploy: {
+        cmd: "cap deploy"
+      }
+    },
+
     imagemin: {
       dynamic: {
         files: [{
@@ -42,7 +48,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-imagemin");
   grunt.loadNpmTasks("grunt-contrib-cssmin");
   grunt.loadNpmTasks("grunt-contrib-watch");
+  grunt.loadNpmTasks("grunt-bg-shell");
 
-  grunt.registerTask("deploy", ["cssmin", "imagemin"]);
+  grunt.registerTask("deploy", ["cssmin", "imagemin", "bgShell:deploy"]);
   grunt.registerTask("default", ["watch"]);
 };
