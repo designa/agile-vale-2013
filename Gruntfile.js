@@ -27,6 +27,15 @@ module.exports = function(grunt) {
     },
 
     bgShell: {
+      gitPull: {
+        cmd: "git pull"
+      },
+      gitAdd: {
+        cmd: "git add -A"
+      },
+      gitCommit: {
+        cmd: "git commit -m ''"
+      },
       deploy: {
         cmd: "cap deploy"
       }
