@@ -19,7 +19,7 @@ Existem duas **tasks** já configuradas, são elas:
 
 A primeira task é para desenvolvimento e **sem livereload**, 
 
-Já a segunda task, roda toda a concatenação e minificação de arquivos **CSS** e **JS **,
+Já a segunda task, roda toda a concatenação e minificação de arquivos **CSS** e **JS**,
 
 O arquivo **index.html** está sempre apontando para os arquivos **.min** de **CSS** e **JS**, 
 
